@@ -1,0 +1,6 @@
+.terraform.lock.hcl
+.terraform
+.terraform*
+.terraform.*
+2_eks.tf
+3_nodes.tf
