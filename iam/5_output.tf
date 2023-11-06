@@ -5,5 +5,5 @@ output "node_role" {
 }
 
 output "demo_role" {
-  value = aws_iam_role.nodes.name
+  value = aws_iam_role.nodes.arn
 }
