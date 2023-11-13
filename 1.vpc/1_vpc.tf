@@ -1,6 +1,6 @@
 #0. Using external data to generate VPC time stamp
 data "external" "vpc_name" {
-  program = ["python3", "${path.module}/name.py"]
+  program = ["python", "${path.module}\\name.py"]
 }
 #1. Create VPC
 resource "aws_vpc" "main" {

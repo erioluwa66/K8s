@@ -49,7 +49,7 @@ data "aws_iam_policy_document" "manager_assume_role" {
 
     principals {
       type = "AWS"
-      # When you are addind a group to a the the principle you use an account instead of the arn
+      # When you are adding a group to a the the principle you use an account instead of the arn
       identifiers = ["arn:aws:iam::${data.aws_caller_identity.current.account_id}:user/manager"] #( this is for a user)
       #identifiers = [data.aws_caller_identity.current.account_id]
       #identifiers = ["data.aws_caller_identity.current.account_id]
