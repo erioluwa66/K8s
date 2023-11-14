@@ -57,6 +57,3 @@ data "aws_iam_policy_document" "manager_assume_role" {
   }
 }
 data "aws_caller_identity" "current" {}
-
-#AKIA3AXGP6VGQRDUQW7O
-#T4o1Y5ZGeTx+Kj3ezfph2kCOpgT1B9NkcXgqsi0l
