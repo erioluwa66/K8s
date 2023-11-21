@@ -2,7 +2,7 @@
 data "terraform_remote_state" "network" {
   backend = "local"
   config = {
-    path = "../vpc/terraform.tfstate"
+    path = "../1.vpc/terraform.tfstate"
   }
 }
 #create node group in the created vpc using created node role
