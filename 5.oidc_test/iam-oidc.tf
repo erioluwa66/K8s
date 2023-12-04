@@ -18,7 +18,7 @@ resource "aws_iam_policy" "test-policy" {
       ]
       Effect   = "Allow"
       Resource = "*"
-           }]
+    }]
     Version = "2012-10-17"
   })
 }

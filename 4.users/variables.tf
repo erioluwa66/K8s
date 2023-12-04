@@ -1,6 +1,6 @@
 variable "username" {
   type    = list(any)
-  default = ["developer1", "manager", "mark","david"]
+  default = ["developer1", "manager", "mark", "david"]
 }
 
 variable "env" {
